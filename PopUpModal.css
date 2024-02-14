@@ -1,5 +1,5 @@
 .body {
-    display: grid;
+    display: none ;
     place-items: center;
 }
 #popup-container {
