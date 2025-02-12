@@ -1,8 +1,9 @@
 class MyClass {
     #privateVariable = "Hello private world"\
         #privateVariable2 = "Hello  world"
-
-    helloWorld() { console.info(this.#privateVariable) }
+#privateVariable = "Hello private world"\
+        #privateVariable2 = "Hello  world"
+    Function() { console.info(this.#privateVariable) }
 }
 
 const myClass = new MyClass()
